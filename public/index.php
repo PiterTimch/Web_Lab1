@@ -6,7 +6,7 @@ declare(strict_types=1);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Лабораторна робота №1</title>
+    <title>Лабораторна робота №1 (варіант 11)</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
