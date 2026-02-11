@@ -45,6 +45,11 @@ h1 {
     border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
+/* Клас для широких контейнерів (наприклад, для таблиць) */
+.form-container.wide {
+    max-width: 900px;
+}
+
 .input-group {
     margin-bottom: 1.2rem;
 }
@@ -78,11 +83,38 @@ input[type="number"] {
     font-weight: 600;
     cursor: pointer;
     transition: all 0.2s;
+    margin-bottom: 1rem;
 }
 
 .submit-btn:hover {
     background: var(--dark-blue);
     transform: translateY(-2px);
+}
+
+/* Стилі для таблиць/матриць */
+.matrix-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 600px;
+    font-size: 0.85rem;
+}
+
+td {
+    border: 1px solid rgba(2, 132, 199, 0.2);
+    padding: 8px 4px;
+    text-align: center;
+    color: var(--dark-blue);
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .alert {
@@ -155,4 +187,5 @@ input[type="number"] {
 @media (max-width: 480px) {
     .button-container { grid-template-columns: 1fr; }
     h1 { font-size: 1.8rem; }
+    .form-container { padding: 1.5rem; }
 }
