@@ -45,7 +45,6 @@ h1 {
     border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
-/* Клас для широких контейнерів (наприклад, для таблиць) */
 .form-container.wide {
     max-width: 900px;
 }
@@ -91,7 +90,6 @@ input[type="number"] {
     transform: translateY(-2px);
 }
 
-/* Стилі для таблиць/матриць */
 .matrix-wrapper {
     width: 100%;
     overflow-x: auto;
